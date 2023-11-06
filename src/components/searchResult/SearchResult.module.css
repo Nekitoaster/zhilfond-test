@@ -1,0 +1,31 @@
+.result {
+  margin-top: 20px;
+  margin-left: 10px; }
+  .result p {
+    color: #333;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-bottom: 6px; }
+  .result .list {
+    padding-left: 10px;
+    padding-top: 10px;
+    max-height: 400px;
+    overflow-y: scroll;
+    margin: 0; }
+    .result .list .empty,
+    .result .list .nothing,
+    .result .list .loading,
+    .result .list .error {
+      margin: 0;
+      color: #76787d;
+      font-size: 14px;
+      font-weight: 400; }
+    .result .list .error {
+      color: #c21313;
+      font-weight: 600; }
+    .result .list .loader {
+      width: 100px; }
+  .result .list::-webkit-scrollbar {
+    width: 0; }
+
+/*# sourceMappingURL=SearchResult.module.css.map */

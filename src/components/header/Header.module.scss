@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3px;
+  
+  .logo {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39.01px;
+    color: #E31F24;
+  }
+
+  .user {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.5px;
+    color: #333333;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+}
+

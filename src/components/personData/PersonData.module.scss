@@ -1,0 +1,65 @@
+.profile {
+  display: flex;
+  padding: 0  30px 30px 30px;
+  height: 100%;
+  
+
+  img {
+    width: 424px;
+    height: 286px;
+  }
+
+  .data {
+    margin-left: 61px;
+
+    p {
+      margin: 0;
+    }
+
+    .name {
+      color: #000;
+      font-weight: 600;
+    }
+
+    .email, .phone {
+      margin-top: 10px;
+      color: #333;
+      font-size: 14px;
+      font-weight: 600;
+      span {
+        color: #76787D;
+        font-weight: 400;
+      }
+    }
+    .about {
+      margin-top: 20px;
+      color: #333;
+      font-weight: 600;
+    }
+
+    .description {
+      margin-top: 25px;
+      color: #76787D;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .profile {
+      display: flex;
+      flex-wrap: wrap;
+      overflow-y: scroll;
+      
+      .data {
+        margin-left: 0px;
+        margin-top: 20px;
+        
+      }    
+  }
+
+  .profile::-webkit-scrollbar {
+    width: 0;
+  }
+}

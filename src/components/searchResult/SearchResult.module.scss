@@ -1,0 +1,39 @@
+.result {
+  margin-top: 20px;
+  margin-left: 10px;
+  p {
+    color: #333;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-bottom: 6px;
+  }
+  .list {
+    padding-left: 10px;
+    padding-top: 10px;
+    max-height: 400px;
+    overflow-y: scroll;
+    margin: 0;
+    .empty,
+    .nothing,
+    .loading,
+    .error {
+      margin: 0;
+      color: #76787d;
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    .error {
+      color: rgb(194, 19, 19);
+      font-weight: 600;
+    }
+
+    .loader {
+      width: 100px;
+    }
+  }
+
+  .list::-webkit-scrollbar {
+    width: 0;
+  }
+}

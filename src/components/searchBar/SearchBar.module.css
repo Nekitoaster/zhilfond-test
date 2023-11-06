@@ -1,0 +1,19 @@
+.wrapper {
+  margin-right: 31px;
+  margin-top: 27px;
+  margin-left: 20px; }
+  .wrapper label {
+    color: #333;
+    font-weight: 600;
+    line-height: 140%; }
+  .wrapper input {
+    width: 240px;
+    margin-top: 22px;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1.5px solid #E9ECEF;
+    background: #FFF;
+    color: #76787D;
+    font-size: 14px; }
+
+/*# sourceMappingURL=SearchBar.module.css.map */

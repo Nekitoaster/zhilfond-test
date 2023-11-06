@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./fonts/Montserrat-VariableFont_wght.ttf); }
+* {
+  font-family: 'Montserrat';
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 47px 47px 0 47px; }
+
+/*# sourceMappingURL=App.css.map */
